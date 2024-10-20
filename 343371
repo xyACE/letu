@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中学9（7）班</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">主页</a></li>
+                <li><a href="#class">班级</a></li>
+                <li><a href="#teachers">老师</a></li>
+                <li><a href="#students">同学</a></li>
+                <li><a href="#gallery">相册</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="banner-image">
+                <img src="./班级.jpeg" alt="班级照片">
+            </div>
+            <h1>欢迎来到我们的班级</h1>
+        </section>
+
+        <section id="class">
+            <h2>班级介绍</h2>
+            <p class="class-intro">
+                中学9（7）班，拥有最可爱的学生，最美丽的老师，我们的班级人才辈出，人人皆是强者
+            </p>
+        </section>
+
+        <section id="teachers">
+            <h2>我们的老师</h2>
+            <div class="teacher-container">
+                <div class="teacher">
+                    <img src="./zhang.jpeg" alt="张老师">
+                    <p>最强英语老师：老师</p>
+                </div>
+                <div class="teacher">
+                    <img src="./pan.jpeg" alt="潘老师">
+                    <p>最牛班主任：老师</p>
+                </div>
+                <div class="teacher">
+                    <img src="./zhao.jpeg" alt="赵老师">
+                    <p>巾帼不让须眉：老师</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="students">
+            <h2>我们的同学</h2>
+            <div class="student-container">
+                <div class="student">
+                    <img src="./❤xuan❤.png" alt="❤xuan❤">
+                    <p>班级第一&地理学家：</p>
+                </div>
+                <div class="student">
+                    <img src="./rui.jpeg" alt="rui">
+                    <p>笑点大师：</p>
+                </div>
+                <div class="student">
+                    <img src="./wo.jpeg" alt="wo">
+                    <p>代码大师&设备专家&网站建立者:</p>
+                </div>
+                <div class="student">
+                    <img src="./yi.jpeg" alt="yi">
+                    <p>运动健将&最美歌声：</p>
+                </div>
+                <div class="student">
+                    <img src="./song.jpeg" alt="song">
+                    <p>篮球宗师：</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>班级相册</h2>
+            <h1>别催辣，别催辣，已经努力在敲代码辣！</h1>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
